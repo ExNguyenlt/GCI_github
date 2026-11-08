@@ -1,5 +1,7 @@
 github
 
-git remote add origin https://github.com/ExNguyenlt/GCI_github.git
-
-git push -u origin main
+- về phiên bản trước đó bất kì
+1. trong VSCode, nhấp chuột phải vào commit muốn quay về, nhấp checkout
+2. sau khi nhấp chuột phải lần nữa, hiện detached thì đã thành công, nhập code sau:
+git checkout -B main
+git push origin main --force
