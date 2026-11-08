@@ -1,0 +1,5 @@
+github
+
+git remote add origin https://github.com/ExNguyenlt/GCI_github.git
+
+git push -u origin main
